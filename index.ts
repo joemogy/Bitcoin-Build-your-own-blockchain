@@ -1,6 +1,6 @@
 import * as crypto from 'crypto';
 
-class Tracsaction {
+class Transaction {
     constructor(
         public amount: number,
         public payer: string,
